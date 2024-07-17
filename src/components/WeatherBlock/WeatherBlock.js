@@ -63,7 +63,7 @@ export const WeatherBlock = ({ city, weather, setWeather }) => {
       });
   };
 
-  const weatherYears = Object.keys(weather);
+  const weatherYears = Object.keys(localWeather);
   const countRequest = weatherYears.length ? (weatherYears.length - 1) * 12 + activeRequest?.month : activeRequest?.month ?? -1;
 
   return (
