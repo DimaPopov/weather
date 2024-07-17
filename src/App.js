@@ -150,7 +150,7 @@ export const App = () => {
                 mode="secondary"
                 loading={loading}
                 onClick={onForecast}
-                disabled={!city}
+                disabled={!citySelect}
               >
                 Спрогназировать
               </Button>
