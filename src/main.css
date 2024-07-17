@@ -1,0 +1,17 @@
+
+:root {
+  --blue: #2688eb;
+  --red: #ff3347;
+  --green: #4bb34b;
+  --gray: #a3adb8;
+  --orange: #ffa000;
+  --green_alt: #B2F500;
+  --purple: #735ce6;
+  --pink: #e03fab;
+  --violet: rgba(121, 46, 192, 0.3);
+  --black: rgba(0, 0, 0, 0.7);
+}
+
+.vkuiModalPage--desktop .vkuiModalPage__in-wrap {
+  max-height: 95vh;
+}
