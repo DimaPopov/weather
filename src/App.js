@@ -152,7 +152,7 @@ export const App = () => {
                 onClick={onForecast}
                 disabled={!citySelect}
               >
-                Спрогназировать
+                Спрогнозировать
               </Button>
             </FormItem>
           </FormLayoutGroup>
